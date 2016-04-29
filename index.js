@@ -1,11 +1,10 @@
 'use strict';
 
-/**
+/*
  * Module dependencies.
  */
 
-// FIXME: Hacky workaround for Duo
-var each; try { each = require('@ndhoule/each'); } catch(e) { each = require('each'); }
+var each = require('@ndhoule/each');
 
 /**
  * Check if a predicate function returns `true` for all values in a `collection`.
@@ -23,7 +22,6 @@ var each; try { each = require('@ndhoule/each'); } catch(e) { each = require('ea
  * every(isEven, [1, 2]); // => false
  * every(isEven, [2, 4, 6]); // => true
  */
-
 var every = function every(predicate, collection) {
   if (typeof predicate !== 'function') {
     throw new TypeError('`predicate` must be a function but was a ' + typeof predicate);
@@ -43,7 +41,7 @@ var every = function every(predicate, collection) {
   return result;
 };
 
-/**
+/*
  * Exports.
  */
 
