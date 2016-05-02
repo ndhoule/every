@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/ndhoule/every",
   "dependencies": {
-    "@ndhoule/each": "^1.0.3"
+    "@ndhoule/each": "^2.0.1"
   },
   "devDependencies": {
     "eslint": "0.x",
