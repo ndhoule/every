@@ -1,6 +1,6 @@
 {
   "name": "@ndhoule/every",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Check if a `predicate` function returns true for all values in a `collection`.",
   "main": "index.js",
   "repository": {
